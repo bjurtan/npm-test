@@ -1,0 +1,19 @@
+{
+  "name": "node_app",
+  "version": "1.0.0",
+  "description": "small demo app",
+  "main": "node_app.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "keywords": [
+    "demo",
+    "node",
+    "app"
+  ],
+  "author": "bjorn.spara@softwarecensus.se",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "axios": "^0.21.1"
+  }
+}
