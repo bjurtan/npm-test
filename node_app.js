@@ -6,7 +6,7 @@ console.log('Server has started');
 
 function onRequest(request, response) {
   var pathName = url.parse(request.url).pathname
-  console.log('pathname' + pathName);
+  console.log(pathName);
   response.writeHead(200);
   response.write("Hello world!");
   response.end();
